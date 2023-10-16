@@ -6,6 +6,6 @@
     "server": "npm start --prefix api",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix client && npm install --prefix api && npm run dev"
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix client && npm install --prefix api && npm run client"
   }
 }
